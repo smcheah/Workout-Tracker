@@ -5,13 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smcheah/Workout-Tracker.git"
   },
-  "author": "",
+  "author": "smcheah",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/smcheah/Workout-Tracker/issues"
