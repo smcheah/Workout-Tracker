@@ -19,5 +19,5 @@ require( './controllers/html-routes.js' )( app );
 require( './controllers/api-routes.js' )( app );
 
 app.listen( PORT, () => {
-    console.log( `App running on port ${PORT}!` );
+    console.log( `running on http://localhost:${PORT}` );
 } );
