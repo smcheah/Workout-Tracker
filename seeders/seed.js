@@ -147,8 +147,7 @@ let workoutSeed = [
 // 		process.exit(1);
 //   });
   
-Workout.collection
-	.insertMany(workoutSeed)
+Workout.insertMany(workoutSeed)
 	.then((data) => {
 		console.log(data.result.n + " records inserted!");
 		process.exit(0);
