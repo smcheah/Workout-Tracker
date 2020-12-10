@@ -17,7 +17,7 @@ Users will be able to reach their fitness goals quicker when they track their wo
 ## Features & Technologies used :sparkles:
 
 -   Logs multiple exercises in a workout on a given day
--   Track the name, type, weight, sets, reps, and duration of exercise
+-   Tracks the name, type, weight, sets, reps, and duration of exercise
 -   If the exercise is a cardio exercise, distance travelled is also tracked
 
 | Technology  | Description                                               | Link                                 |
