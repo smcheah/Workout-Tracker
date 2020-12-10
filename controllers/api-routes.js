@@ -13,16 +13,18 @@ module.exports = function ( app ) {
     } );
 
     app.put("/api/workouts/:id", (req, res) => {
-		Workout.findByIdAndUpdate(req.params.id, req.body, {
-			new: true,
-		})
+        Workout.findByIdAndUpdate(
+            { _id: req.params.id },
+            { $push: { exercises: req.body }, $set: { totalDuration: req.body.duration } },
+            { new: true, useFindAndModify: false },
+        )
 			.then((data) => {
 				res.json(data);
 			})
 			.catch((err) => {
 				res.json(err);
 			});
-	});
+    });
 
     app.post( '/api/workouts', ( req, res ) => {
         Workout
