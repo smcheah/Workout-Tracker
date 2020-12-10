@@ -2,7 +2,8 @@
 
 ## Description <!-- omit in toc -->
 
-This app is able to view, create and track daily workouts.
+View, create and track daily workouts.
+
 Users will be able to reach their fitness goals quicker when they track their workout progress.
 
 ## Table of Contents :paperclip:
