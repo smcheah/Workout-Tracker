@@ -39,9 +39,9 @@ Users will be able to reach their fitness goals quicker when they track their wo
 
 Head to the deployed app here: https://sleepy-fjord-32591.herokuapp.com/
 
-![home page](https://github.com/smcheah/Workout-Tracker/tree/main/demo/home.png)
+![home page](https://github.com/smcheah/Workout-Tracker/blob/main/demo/home.PNG)
 
-![stats page](https://github.com/smcheah/Workout-Tracker/tree/main/demo/stats.png)
+![stats page](https://github.com/smcheah/Workout-Tracker/blob/main/demo/stats.PNG)
 
 ## License ![License](https://img.shields.io/github/license/smcheah/Workout-Tracker)
 
