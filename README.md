@@ -5,13 +5,13 @@
 This app is able to view, create and track daily workouts.
 Users will be able to reach their fitness goals quicker when they track their workout progress.
 
-## Table of Contents
+## Table of Contents :paperclip:
 
 -   [Features & Technologies](#features--technologies-used-sparkles)
 -   [Installation](#installation-hammer_and_wrench)
--   [Usage Demo](#usage-demo)
+-   [Usage Demo](#usage-demo-gift)
 -   [License](#license-)
--   [Contributing](#contributing)
+-   [Contributing](#contributing-clinking_glasses)
 -   [Got questions?](#got-questions-thinking)
 
 ## Features & Technologies used :sparkles:
@@ -35,7 +35,7 @@ Users will be able to reach their fitness goals quicker when they track their wo
 3. Navigate to the file location of the downloaded repository using the command line
 4. Run `node server.js` and head to the link provided
 
-## Usage Demo
+## Usage Demo :gift:
 
 Head to the deployed app here: https://sleepy-fjord-32591.herokuapp.com/
 
@@ -47,7 +47,7 @@ Head to the deployed app here: https://sleepy-fjord-32591.herokuapp.com/
 
 MIT
 
-## Contributing
+## Contributing :clinking_glasses:
 
 The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard.
 
