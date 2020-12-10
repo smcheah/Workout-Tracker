@@ -11,14 +11,18 @@ app.use( express.json() );
 app.use( express.static( "public" ) );
 
 mongoose.connect( process.env.MONGODB_URI || "mongodb://localhost/workout", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+	useNewUrlParser: true,
+	useUnifiedTopology: true,
+} );
+mongoose.connection.on( 'error', console.error.bind( console, 'connection error:' ) );
+mongoose.connection.once( 'open', function () {
+	// we're connected!
+	require( "./seeders/seed.js" );
 } );
 
-require("./seeders/seed.js");
-require( './controllers/html-routes.js' )( app );
-require( './controllers/api-routes.js' )( app );
+require( "./controllers/html-routes.js" )( app );
+require( "./controllers/api-routes.js" )( app );
 
 app.listen( PORT, () => {
-    console.log( `running on http://localhost:${PORT}` );
+	console.log( `running on http://localhost:${ PORT }` );
 } );
