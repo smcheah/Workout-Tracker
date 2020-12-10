@@ -1,0 +1,135 @@
+[
+	{
+		"_id": "5fd249b09c796632e8db30e9",
+		"day": "2020-11-30T16:15:44.199Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Bicep Curl",
+				"duration": 20,
+				"weight": 100,
+				"reps": 10,
+				"sets": 4
+			}
+		],
+		"totalDuration": 20
+	},
+	{
+		"_id": "5fd249b09c796632e8db30ea",
+		"day": "2020-12-01T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Lateral Pull",
+				"duration": 20,
+				"weight": 300,
+				"reps": 10,
+				"sets": 4
+			}
+		],
+		"totalDuration": 20
+	},
+	{
+		"_id": "5fd249b09c796632e8db30eb",
+		"day": "2020-12-02T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Push Press",
+				"duration": 25,
+				"weight": 185,
+				"reps": 8,
+				"sets": 4
+			}
+		],
+		"totalDuration": 25
+	},
+	{
+		"_id": "5fd249b09c796632e8db30ec",
+		"day": "2020-12-03T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "cardio",
+				"name": "Running",
+				"duration": 25,
+				"distance": 4
+			}
+		],
+		"totalDuration": 25
+	},
+	{
+		"_id": "5fd249b09c796632e8db30ed",
+		"day": "2020-12-04T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Bench Press",
+				"duration": 20,
+				"weight": 285,
+				"reps": 10,
+				"sets": 4
+			}
+		],
+		"totalDuration": 20
+	},
+	{
+		"_id": "5fd249b09c796632e8db30ee",
+		"day": "2020-12-05T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Bench Press",
+				"duration": 20,
+				"weight": 300,
+				"reps": 10,
+				"sets": 4
+			}
+		],
+		"totalDuration": 20
+	},
+	{
+		"_id": "5fd249b09c796632e8db30ef",
+		"day": "2020-12-06T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Quad Press",
+				"duration": 30,
+				"weight": 300,
+				"reps": 10,
+				"sets": 4
+			}
+		],
+		"totalDuration": 30
+	},
+	{
+		"_id": "5fd249b09c796632e8db30f0",
+		"day": "2020-12-07T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Bench Press",
+				"duration": 20,
+				"weight": 300,
+				"reps": 10,
+				"sets": 4
+			}
+		],
+		"totalDuration": 20
+	},
+	{
+		"_id": "5fd249b09c796632e8db30f1",
+		"day": "2020-12-08T16:15:44.200Z",
+		"exercises": [
+			{
+				"type": "resistance",
+				"name": "Military Press",
+				"duration": 20,
+				"weight": 300,
+				"reps": 10,
+				"sets": 4
+			}
+		],
+		"totalDuration": 20
+	}
+]
