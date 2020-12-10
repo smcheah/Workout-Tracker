@@ -1,7 +1,7 @@
 const mongoose = require( "mongoose" );
 const { Schema } = mongoose;
 
-const WorkoutSchema = new Schema( {
+const WorkoutSchema = new Schema({
 	day: {
 		type: Date,
 		default: Date.now,
@@ -16,10 +16,13 @@ const WorkoutSchema = new Schema( {
 			sets: Number,
 		},
 	],
-	totalDuration: { type: Number, default: function() {
-		return this.getTotalDuration()
-	} }
-} );
+	totalDuration: {
+		type: Number,
+		default: function () {
+			return this.getTotalDuration();
+		},
+	},
+});
 
 WorkoutSchema.methods.getTotalDuration = function () {
 	let total = 0;
