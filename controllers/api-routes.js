@@ -24,17 +24,6 @@ module.exports = function ( app ) {
 			});
 	});
 
-    app.get( '/api/workouts/:id', ( req, res ) => {
-        Workout
-            .findById( req.params.id )
-            .then( data => {
-                res.json( data );
-            } )
-            .catch( err => {
-                res.json( err );
-            } );
-    } );
-
     app.post( '/api/workouts', ( req, res ) => {
         Workout
             .create( req.body )
@@ -47,7 +36,8 @@ module.exports = function ( app ) {
     } );
 
     app.get( '/api/workouts/range', ( req, res ) => {
-        Workout.find( {} )
+        Workout
+            .find( {} )
             .then( data => {
                 res.json( data );
             } )
